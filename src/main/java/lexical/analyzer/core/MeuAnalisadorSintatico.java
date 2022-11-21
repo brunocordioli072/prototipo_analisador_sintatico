@@ -1,3 +1,7 @@
+package lexical.analyzer.core;
+
+import lexical.analyzer.errors.ErroSintatico;
+
 public class MeuAnalisadorSintatico extends AnalisadorSintatico {
 
     public MeuAnalisadorSintatico(String nomeArquivoEntrada) {

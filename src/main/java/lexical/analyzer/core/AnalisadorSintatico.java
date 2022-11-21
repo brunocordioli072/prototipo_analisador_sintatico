@@ -1,3 +1,6 @@
+package lexical.analyzer.core;
+
+import lexical.analyzer.errors.ErroSintatico;
 
 public class AnalisadorSintatico extends Analisador implements Constantes {
 

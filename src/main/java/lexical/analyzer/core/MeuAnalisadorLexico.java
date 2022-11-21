@@ -1,3 +1,6 @@
+package lexical.analyzer.core;
+
+import lexical.analyzer.errors.ErroLexico;
 
 public class MeuAnalisadorLexico extends AnalisadorLexico {
 

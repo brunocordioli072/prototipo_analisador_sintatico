@@ -1,3 +1,4 @@
+package lexical.analyzer.core;
 
 public abstract class Analisador implements Constantes {
 

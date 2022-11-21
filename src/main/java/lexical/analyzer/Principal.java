@@ -1,3 +1,8 @@
+package lexical.analyzer;
+
+import lexical.analyzer.core.MeuAnalisadorSintatico;
+import lexical.analyzer.errors.ErroLexico;
+import lexical.analyzer.errors.ErroSintatico;
 
 public class Principal {
 

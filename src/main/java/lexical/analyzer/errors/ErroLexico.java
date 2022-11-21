@@ -1,4 +1,8 @@
+package lexical.analyzer.errors;
 
+import lombok.Data;
+
+@Data
 public class ErroLexico extends RuntimeException {
 
     private char caractereEncontrado;
@@ -11,38 +15,6 @@ public class ErroLexico extends RuntimeException {
         setCaracteresEsperados(caracteresEsperados);
         setLinha(linha);
         setColuna(coluna);
-    }
-
-    public void setCaractereEncontrado(char caractereEncontrado) {
-        this.caractereEncontrado = caractereEncontrado;
-    }
-
-    public char getCaractereEncontrado() {
-        return caractereEncontrado;
-    }
-
-    public void setCaracteresEsperados(String caracteresEsperados) {
-        this.caracteresEsperados = caracteresEsperados;
-    }
-
-    public String getCaracteresEsperados() {
-        return caracteresEsperados;
-    }
-
-    public int getLinha() {
-        return linha;
-    }
-
-    public void setLinha(int linha) {
-        this.linha = linha;
-    }
-
-    public int getColuna() {
-        return coluna;
-    }
-
-    public void setColuna(int coluna) {
-        this.coluna = coluna;
     }
 
     @Override

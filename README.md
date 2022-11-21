@@ -1,4 +1,4 @@
-# Protótipo de um Analisador Sintático
+# Protótipo de um lexical.analyzer.core.Analisador Sintático
 
 ## **Resumo**
 Este programa realiza a análise sintática dos programas escritos na linguagem oob. 

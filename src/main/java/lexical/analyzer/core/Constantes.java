@@ -1,3 +1,4 @@
+package lexical.analyzer.core;
 
 public interface Constantes {
 

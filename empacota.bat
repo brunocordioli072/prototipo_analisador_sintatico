@@ -11,5 +11,5 @@ if not exist jar (
 
 echo  *** Empacotando projeto ***
 cd bin
-jar cvfe ..\jar\projeto.jar Principal bin/ . 
+jar cvfe ..\jar\projeto.jar lexical.analyzer.Principal bin/ .
 cd ..
