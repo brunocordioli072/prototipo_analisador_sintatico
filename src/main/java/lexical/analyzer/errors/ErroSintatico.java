@@ -2,8 +2,10 @@ package lexical.analyzer.errors;
 
 import lexical.analyzer.core.Constantes;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class ErroSintatico extends RuntimeException implements Constantes {
 
     private Constantes.Token tokenEncontrado;

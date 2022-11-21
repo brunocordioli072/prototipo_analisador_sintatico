@@ -1,8 +1,10 @@
 package lexical.analyzer.errors;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class ErroLexico extends RuntimeException {
 
     private char caractereEncontrado;
